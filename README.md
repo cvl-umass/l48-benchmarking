@@ -1,6 +1,6 @@
 # ML48S Benchmarking Code
 
-[Data](https://msid-ml48s.s3.amazonaws.com/v0/ml48s.tar.gz)
+[Paper](https://arxiv.org/abs/2511.00252) [Data](https://msid-ml48s.s3.amazonaws.com/v0/ml48s.tar.gz)
 
 ## Training
 ### Dataset Processing
