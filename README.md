@@ -71,3 +71,11 @@ Box metadata is given in detail below:
 | `status`       | `"passive"`, `"active"`, `"ignore"` | Species prevalence in the clip                 |
 | `bbox`         | `[0, 1]^4`                          | Box coordinates `[xmin, ymin, xmax, ymax]`     |
 
+## Citation
+```
+@inproceedings{sunmerlin,
+   title={Merlin L48 Spectrogram Dataset},
+   author={Sun, Aaron and Maji, Subhransu and Van Horn, Grant},
+   booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track}
+}
+```
