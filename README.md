@@ -1,6 +1,6 @@
 # The Merlin L48 Spectrogram Dataset Benchmarking Code
 
-[Paper](https://arxiv.org/abs/2511.00252) [Data](https://github.com/visipedia/ml48s/)
+[NeurIPS25](https://openreview.net/forum?id=6hY4hBL8M6) [arXiv](https://arxiv.org/abs/2511.00252) [Data](https://github.com/visipedia/ml48s/)
 
 ## Training
 ### Dataset Processing
