@@ -1,10 +1,10 @@
-# ML48S Benchmarking Code
+# The Merlin L48 Spectrogram Dataset Benchmarking Code
 
-[Paper](https://arxiv.org/abs/2511.00252) [Data](https://msid-ml48s.s3.amazonaws.com/v0/ml48s.tar.gz)
+[Paper](https://arxiv.org/abs/2511.00252) [Data](https://msid-L48.s3.amazonaws.com/v0/L48.tar.gz)
 
 ## Training
 ### Dataset Processing
-First download the ML48S data and the [COCO2014](https://cocodataset.org/#download) data. Run `datasets/format_ML48S.py` and `datasets/format_COCO.py`. 
+First download the L48 data and the [COCO2014](https://cocodataset.org/#download) data. Run `datasets/format_ML48S.py` and `datasets/format_COCO.py`. 
 This should create masks for the fully-labeled, target-only, geo, and checklist versions of the data, as well as image labels and image paths.
 
 ### Training
@@ -18,7 +18,7 @@ To enable asset regularization, run with `--asset-reg` and specify the parameter
 
 ## Dataset Organization (Modified from Appendix A.2)
 
-We organize the ML48S by images in sets which come from recordings, which we also call clips (`clips.json`) and assets (`assets.json`), respectively. 
+We organize the L48 by images in sets which come from recordings, which we also call clips (`clips.json`) and assets (`assets.json`), respectively. 
 
 ### Image Directories
 Each asset has its own directory where each clip is enumerated sequentially in time. The overall structure of the images is `images/[asset_id]/[clip_num].jpg`.
