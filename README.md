@@ -1,6 +1,6 @@
 # The Merlin L48 Spectrogram Dataset Benchmarking Code
 
-[Paper](https://arxiv.org/abs/2511.00252) [Data]([https://msid-L48.s3.amazonaws.com/v0/L48.tar.gz](https://github.com/visipedia/ml48s/)
+[Paper](https://arxiv.org/abs/2511.00252) [Data](https://github.com/visipedia/ml48s/)
 
 ## Training
 ### Dataset Processing
